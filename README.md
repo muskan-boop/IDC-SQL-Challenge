@@ -1,18 +1,11 @@
-# Day 1 - IDC 21 Days of SQL Challenge
+# IDC 21 Days SQL Challenge
 
-This repository documents my journey through the **21 Days SQL Challenge** organized by **Indian Data Club** in collaboration with **DPDzero**.
+This repository contains my daily SQL solutions and learnings from the Indian Data Club 21 Days SQL Challenge.
 
-### 🚀 Day 1 Focus: Introduction to SQL & SELECT Statement
+### Contents
+- Day 1: SELECT & Basic Queries
+- Day 2: WHERE Clause
+- Day 3: ORDER BY & Sorting
+- (More Days Coming...)
 
-On the first day, I learned how to retrieve data from a database using the `SELECT` statement. The key idea is to extract only the data we need instead of the entire dataset.
-
----
-
-### 🔍 Challenge Question
-
-**Q:** List all **unique hospital services** available in the hospital.
-
-#### ✅ SQL Query:
-
-SELECT DISTINCT service
-FROM patients;
+Learning SQL consistently → Strong Foundations 💡
