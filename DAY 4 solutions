@@ -1,0 +1,27 @@
+## Day 4 — LIMIT, OFFSET & Pagination
+
+**Topic Covered:**  
+Understanding how to control query output using `ORDER BY`, `LIMIT`, and `OFFSET` to view specific portions of data.
+
+**Challenge:**  
+Find the **3rd to 7th highest** patient satisfaction scores from the `patients` table, displaying:
+- `patient_id`
+- `name`
+- `service`
+- `satisfaction`
+
+**SQL Concept Used:**  
+- `ORDER BY` to rank records
+- `LIMIT` and `OFFSET` to fetch selected rows (pagination)
+
+**SQL Query:**
+
+
+SELECT 
+    patient_id,
+    name,
+    service,
+    satisfaction
+FROM patients
+ORDER BY satisfaction DESC
+LIMIT 5 OFFSET 2;
